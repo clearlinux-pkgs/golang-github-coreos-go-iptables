@@ -1,0 +1,13 @@
+=== RUN   TestChain
+--- FAIL: TestChain (0.00s)
+        iptables_test.go:68: testing iptables (hasWait=true, hasCheck=true)
+        iptables_test.go:75: ClearChain (of missing) failed: exit status 3: iptables v1.4.21: can't initialize iptables table `filter': Permission denied (you must be root)
+                Perhaps iptables or your kernel needs to be upgraded.
+=== RUN   TestRules
+--- FAIL: TestRules (0.00s)
+        iptables_test.go:122: testing iptables (hasWait=true, hasCheck=true)
+        iptables_test.go:129: ClearChain (of missing) failed: exit status 3: iptables v1.4.21: can't initialize iptables table `filter': Permission denied (you must be root)
+                Perhaps iptables or your kernel needs to be upgraded.
+FAIL
+exit status 1
+FAIL    github.com/coreos/go-iptables/iptables  0.005s
