@@ -4,7 +4,7 @@
 #
 Name     : golang-github-coreos-go-iptables
 Version  : fbb73372b87f6e89951c2b6b31470c2c9d5cfae3
-Release  : 3
+Release  : 4
 URL      : https://github.com/coreos/go-iptables/archive/fbb73372b87f6e89951c2b6b31470c2c9d5cfae3.tar.gz
 Source0  : https://github.com/coreos/go-iptables/archive/fbb73372b87f6e89951c2b6b31470c2c9d5cfae3.tar.gz
 Summary  : No detailed summary available
